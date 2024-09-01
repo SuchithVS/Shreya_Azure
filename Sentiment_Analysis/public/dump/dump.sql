@@ -1,0 +1,7 @@
+CREATE TABLE reviews (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_name VARCHAR(100) NOT NULL,
+    review_text TEXT NOT NULL,
+    sentiment VARCHAR(20) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
